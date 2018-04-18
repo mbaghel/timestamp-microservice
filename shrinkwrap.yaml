@@ -1,5 +1,6 @@
 dependencies:
   express: 4.16.3
+  strftime: 0.10.0
 packages:
   /accepts/1.3.5:
     dependencies:
@@ -334,6 +335,12 @@ packages:
       node: '>= 0.6'
     resolution:
       integrity: sha512-zhSCtt8v2NDrRlPQpCNtw/heZLtfUDqxBM1udqikb/Hbk52LK4nQSwr10u77iopCW5LsyHpuXS0GnEc48mLeew==
+  /strftime/0.10.0:
+    dev: false
+    engines:
+      node: '>=0.2.0'
+    resolution:
+      integrity: sha1-s/D6QZKVICpaKJ9ta+n0kJphcZM=
   /type-is/1.6.16:
     dependencies:
       media-typer: 0.3.0
@@ -366,3 +373,4 @@ shrinkwrapMinorVersion: 4
 shrinkwrapVersion: 3
 specifiers:
   express: ^4.16.3
+  strftime: ^0.10.0

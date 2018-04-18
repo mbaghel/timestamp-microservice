@@ -1,16 +1,14 @@
 {
-  "//1": "describes your app and its dependencies",
-  "//2": "https://docs.npmjs.com/files/package.json",
-  "//3": "updating this file will download and update your packages",
 
   "name": "timestamp-microservice",
-  "version": "0.1.0",
-  "description": "An api for getting timestamps or dates",
+  "version": "0.2.0",
+  "description": "An api for getting unix timestamps and dates",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "strftime": "^0.10.0"
   },
   "engines": {
     "node": "9.x"
@@ -20,8 +18,8 @@
   },
   "license": "MIT",
   "keywords": [
-    "node",
-    "glitch",
-    "express"
+    "timestamp",
+    "api",
+    "date"
   ]
 }
