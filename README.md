@@ -3,7 +3,7 @@ TimeStamp Microservice
 
 Pass either a unix timestamp or natural language date with the URL.
 
-The api will return both the timestamp and date
+The api will return a JSON object containing both timestamp and date.
 
 
 Example Usage
