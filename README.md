@@ -17,3 +17,12 @@ Example Output
 ------------
 
 `{ "unix": 1450137600, "natural": "December 15, 2015" }`
+
+Running Locally
+------------
+\(requires Node.js and npm [Downloading & installing](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)\)
+* Clone repository or download and unzip
+* install dependencies by running `npm install`
+* run server with `npm run start`
+* you will see a message with your port number
+* visit localhost:PORT in the browser
